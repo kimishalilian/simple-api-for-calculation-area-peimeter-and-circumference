@@ -29,7 +29,7 @@ def calc_Area_Of_Rectangle():
     return jsonify(response)
 
 # area of triangle route
-@app.route('/api/calc/area/triangle/')
+@app.route('/api/calc/area/triangle/')   
 def calc_Area_Of_Triangle():
     base = int(request.args.get('base'))
     height = int(request.args.get('height'))
